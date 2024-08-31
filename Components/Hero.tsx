@@ -26,13 +26,10 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Hi, I'm Andrew Chan and I am a Full-Stack Developer"
+            words="Hi, my name is Andrew Chan."
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I am based in Los Angeles, and my interests include developing web
-            applications that provide seamless user experiences with responsive
-            designs. While I'm not coding, I enjoy playing/watching basketball
-            and golfing with friends.
+            I am a Full-Stack Developer, based in Los Angeles.
           </p>
 
           <a href="#about">
