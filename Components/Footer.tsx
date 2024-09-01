@@ -44,7 +44,7 @@ const Footer = () => {
                 <LinkPreview url={profile.link} isStatic imageSrc={profile.staticImg}>
                   <img
                     src={profile.img}
-                    alt={profile.id}
+                    alt={profile.link}
                     width={20}
                     height={20}
                   />
