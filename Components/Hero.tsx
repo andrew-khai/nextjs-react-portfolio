@@ -3,8 +3,23 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
+import { LinkPreview } from "./ui/LinkPreview";
+
+const getGreeting = () => {
+  const hours = new Date().getHours();
+  if (hours < 12) {
+    return "Good Morning";
+  } else if (hours < 18) {
+    return "Good Afternoon";
+  } else {
+    return "Good Evening";
+  }
+};
 
 const Hero = () => {
+  const greeting = getGreeting();
+  const message = `${greeting}! Welcome to my page.`;
+
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -25,14 +40,17 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Hi, my name is Andrew Chan."
+            className="text-center text-[40px] md:text-5xl lg:text-6xl mb-3"
+            words={message}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I am a Full-Stack Developer, based in Los Angeles.
+            My name is <LinkPreview isStatic imageSrc="/headshot.jpg"><span className="text-blue-300">Andrew Chan</span></LinkPreview> and I am a Full-Stack Developer, based in Los Angeles. I enjoy
+            developing fullstack web applications that provide seamless user
+            experiences. While I'm not coding, I enjoy playing/watching
+            basketball and golfing with friends.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show My Work"
               icon={<FaLocationArrow />}
