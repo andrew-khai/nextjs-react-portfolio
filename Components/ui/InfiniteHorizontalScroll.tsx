@@ -93,7 +93,7 @@ export const InfiniteMovingCards = ({
                 backgroundColor:
                   "linear-gradient(90deg, rgba(20,20,60,1) 0%, rgba(120,120,255,1) 31%, rgba(170,190,195,1) 100%)", // Lightened the colors
               }}
-              key={item.technology}
+              key={idx}
             >
               <img src={item.icon} className="w-16 h-16" />
               {item.technology}

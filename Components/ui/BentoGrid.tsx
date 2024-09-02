@@ -1,5 +1,3 @@
-"use client";
-
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBG";
 import { GlobeDemo } from "./GridGlobe";
