@@ -43,12 +43,12 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl mb-3"
             words={message}
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             My name is <LinkPreview isStatic imageSrc="/headshot.jpg"><span className="text-blue-300">Andrew Chan</span></LinkPreview> and I am a Full-Stack Developer, based in Los Angeles. I enjoy
             developing fullstack web applications that provide seamless user
             experiences. While I'm not coding, I enjoy playing/watching
             basketball and golfing with friends.
-          </p>
+          </div>
 
           <a href="#projects">
             <MagicButton

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteHorizontalScroll";
 import { skills } from "@/data";
