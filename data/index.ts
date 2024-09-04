@@ -106,7 +106,7 @@ export const projects = [
   {
     id: 3,
     title: "Bumblr",
-    des: "Full-Stack application clone of the social media blog site, Tumblr, utilizing an Flask backend.",
+    des: "Full-Stack application clone of the social media blog site, Tumblr, utilizing a Flask backend.",
     img: "/bumblr.png",
     iconLists: ["/JavaScript.svg", "/re.svg", "/Redux.svg", "/Python.svg", "/flask.svg", "/PostgresSQL.svg", "/AWS.svg"],
     link: "bumblr.onrender.com",
