@@ -3,8 +3,6 @@
 import Hero from "@/Components/Hero";
 import Grid from "@/Components/Grid";
 import { FloatingNav } from "@/Components/ui/FloatingNav";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
 import RecentProjects from "@/Components/RecentProjects";
 import { navItems } from "@/data";
 import Skills from "@/Components/Skills";
