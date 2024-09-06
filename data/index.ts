@@ -11,7 +11,7 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "md:col-span-3 md:row-span-4 lg:col-span-4 lg:row-span-5 lg:min-h-[60vh]",
+    className: "md:col-span-3 md:row-span-4 lg:col-span-4 lg:row-span-6 lg:min-h-[60vh]",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
