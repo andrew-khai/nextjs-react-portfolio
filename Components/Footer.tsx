@@ -7,7 +7,7 @@ import { LinkPreview } from "./ui/LinkPreview";
 const Footer = () => {
   return (
     <section className="w-full pt-20 pb-10" id="contact">
-      <div className="flex flex-col items-center">r
+      <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Want me to help bring <span className="text-blue-300">your</span>{" "}
           projects and ideas to life?
