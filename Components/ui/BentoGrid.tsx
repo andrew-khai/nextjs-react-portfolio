@@ -123,7 +123,7 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${
+                className={`absolute -bottom-0 right-0 ${
                   copied ? "block" : "block"
                 }`}
               >
