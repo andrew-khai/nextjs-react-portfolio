@@ -89,11 +89,11 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "Helen Huynh Personal Fitness",
+    title: "Helen Huynh Fitness",
     des: "Simple personal fitness and nutrition website, utilizing React.js and TailwindCSS.",
     img: "/hhfit.png",
     iconLists: ["/JavaScript.svg", "/re.svg", "/tail.svg", "/HTML5.svg", "/CSS3.svg", "/Node.js.svg"],
-    link: "helenhuynh.fit",
+    link: "https://helenhuynh.fit/",
   },
   {
     id: 2,
@@ -101,7 +101,7 @@ export const projects = [
     des: "Full-Stack application clone of the crowdfunding site, KickStarter, utilizing a Flask backend.",
     img: "/stickkarter.png",
     iconLists: ["/JavaScript.svg", "/re.svg", "/Redux.svg", "/Python.svg", "/flask.svg", "/PostgresSQL.svg", "/AWS.svg"],
-    link: "stickkarter.onrender.com",
+    link: "https://stickkarter.onrender.com/",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const projects = [
     des: "Full-Stack application clone of the social media blog site, Tumblr, utilizing a Flask backend.",
     img: "/bumblr.png",
     iconLists: ["/JavaScript.svg", "/re.svg", "/Redux.svg", "/Python.svg", "/flask.svg", "/PostgresSQL.svg", "/AWS.svg"],
-    link: "bumblr.onrender.com",
+    link: "https://bumblr.onrender.com/",
   },
   {
     id: 4,
@@ -117,7 +117,7 @@ export const projects = [
     des: "Full-Stack application clone of the location hosting site, AirBnB, utilizing an Express backend.",
     img: "/ballbnb.png",
     iconLists: ["/JavaScript.svg", "/re.svg", "/Redux.svg", "/express.svg", "/PostgresSQL.svg", "/AWS.svg"],
-    link: "andrew-auth-me.onrender.com",
+    link: "https://andrew-auth-me.onrender.com/",
   },
 ];
 
